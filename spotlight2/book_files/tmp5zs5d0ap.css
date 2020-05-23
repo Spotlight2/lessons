@@ -63,20 +63,22 @@
 @font-face{font-family:ff3e;src:url(f3e.woff)format("woff");}.ff3e{font-family:ff3e;line-height:0.972000;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff3f;src:url(f3f.woff)format("woff");}.ff3f{font-family:ff3f;line-height:0.922000;font-style:normal;font-weight:normal;visibility:visible;}
 
-input:invalid {
-  box-shadow: 0 0 5px 1px red;
- font-size: 80px; // Размер шрифта
-   font-family: Tahoma; // Стиль шрифта
-   height:4px; // высота на свое усмотрение
-   width: 2px; // ширина на свое усмотрение
+input[type=mytext]:invalid {
+  box-shadow: 0 0 5px 5px red;
+ font-size: 80px; 
+   height: 80px; 
+   width: 60px; 
 }
 
-input:valid {
+input[type=mytext]:focus {
+    background-color: lightblue;
+}
+
+input[type=mytext]:valid {
   box-shadow: 0 0 5px 5px green;
- font-size: 80px; // Размер шрифта
-   font-family: Tahoma; // Стиль шрифта
-   height: 2px; // высота на свое усмотрение
-   width: 0px; // ширина на свое усмотрение
+ font-size: 80px; 
+   height: 80px; 
+   width: 60px; 
 }
 
 .md{transform:matrix(0.224696,-0.109598,0.109598,0.224696,0,0);-ms-transform:matrix(0.224696,-0.109598,0.109598,0.224696,0,0);-webkit-transform:matrix(0.224696,-0.109598,0.109598,0.224696,0,0);}
