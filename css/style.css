@@ -22,6 +22,11 @@ input:invalid {
   box-shadow: 0 0 5px 1px red;
 }
 
+input:valid {
+  box-shadow: 0 0 5px 5px green;
+}
+
+
 input:focus:invalid {
   outline: none;
 }
