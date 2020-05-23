@@ -62,6 +62,23 @@
 @font-face{font-family:ff3d;src:url(f3d.woff)format("woff");}.ff3d{font-family:ff3d;line-height:1.930000;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff3e;src:url(f3e.woff)format("woff");}.ff3e{font-family:ff3e;line-height:0.972000;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff3f;src:url(f3f.woff)format("woff");}.ff3f{font-family:ff3f;line-height:0.922000;font-style:normal;font-weight:normal;visibility:visible;}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+ font-size: 80px; // Размер шрифта
+   font-family: Tahoma; // Стиль шрифта
+   height:4px; // высота на свое усмотрение
+   width: 2px; // ширина на свое усмотрение
+}
+
+input:valid {
+  box-shadow: 0 0 5px 5px green;
+ font-size: 80px; // Размер шрифта
+   font-family: Tahoma; // Стиль шрифта
+   height: 2px; // высота на свое усмотрение
+   width: 0px; // ширина на свое усмотрение
+}
+
 .md{transform:matrix(0.224696,-0.109598,0.109598,0.224696,0,0);-ms-transform:matrix(0.224696,-0.109598,0.109598,0.224696,0,0);-webkit-transform:matrix(0.224696,-0.109598,0.109598,0.224696,0,0);}
 .mb{transform:matrix(0.229408,0.061467,-0.064702,0.241482,0,0);-ms-transform:matrix(0.229408,0.061467,-0.064702,0.241482,0,0);-webkit-transform:matrix(0.229408,0.061467,-0.064702,0.241482,0,0);}
 .m7{transform:matrix(0.231873,0.051395,-0.054100,0.244076,0,0);-ms-transform:matrix(0.231873,0.051395,-0.054100,0.244076,0,0);-webkit-transform:matrix(0.231873,0.051395,-0.054100,0.244076,0,0);}
