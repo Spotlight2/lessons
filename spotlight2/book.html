@@ -18,17 +18,15 @@ pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
 </head>
 <body>
 <script type="text/javascript">
-  VK.init({apiId: 7485456, onlyWidgets: true});
-</script>
-
-<!-- Put this script tag to the place, where the Share button will be -->
-<script type="text/javascript"><!--
-document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
-VK.Widgets.AllowMessagesFromCommunity("vk_allow_messages_from_community", {}, 182197505);
-VK.Widgets.Like("vk_like", {type: "button"});
 VK.Widgets.CommunityMessages("vk_community_messages", 182197505, {expanded: "1",tooltipButtonText: "Есть вопрос?"});
---></script>
-
+window.onload = function () {
+  VK.init({apiId: 7485456, onlyWidgets: true});
+  VK.Widgets.Comments('vk_comments', {width: 500, limit: 15}, 321);
+  document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
+  VK.Widgets.AllowMessagesFromCommunity("vk_allow_messages_from_community", {}, 182197505);
+  VK.Widgets.Like("vk_like", {type: "button"});
+}
+</script>
 <div id="sidebar">
 <div id="outline">
 </div>
