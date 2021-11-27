@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lessons.engaud.com/search.html</loc>
+    
+    <lastmod>2021-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lessons.engaud.com/Spotlight2p40p41.html</loc>
     
     <lastmod>2021-11-27</lastmod>
