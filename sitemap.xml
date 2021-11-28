@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lessons.engaud.com/search.html</loc>
+    <loc>https://lessons.engaud.com/Spotlight2p40p41.html</loc>
     
-    <lastmod>2021-11-27</lastmod>
+    <lastmod>2021-11-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://lessons.engaud.com/Spotlight2p40p41.html</loc>
+    <loc>https://lessons.engaud.com/Spotlight2p42p43.html</loc>
+    
+    <lastmod>2021-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lessons.engaud.com/search.html</loc>
     
     <lastmod>2021-11-27</lastmod>
     
